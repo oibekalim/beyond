@@ -45,7 +45,7 @@ loginButton.click();
 
             JavascriptExecutor js = (JavascriptExecutor)driver;
    //js.executeScript("document.getElementsByName('email').value='gsdgds@gmail.com';");
-        js.executeScript("document.getElementByClassName('form-control.').value='abppc@gmail.com';");
+        js.executeScript("document.getElementByClassName('form-control').value='abppc@gmail.com';");
        // email.sendKeys(kk);
         WebElement continueEmail=driver.findElement(By.xpath("//button[@id='emailStep']"));
         continueEmail.click();
